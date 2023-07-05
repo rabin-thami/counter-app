@@ -1,0 +1,60 @@
+body {
+    font-family: 'Martian Mono', monospace;
+    background-color: #393E46;
+}
+
+.container {
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .app { 
+    width: 30em;
+    border: 1px solid #EEEEEE;
+    color: #00ADB5;
+    background-color: #222831;
+    border-radius: 6px;
+    box-shadow: 1px 1px 20px #00ADB5;
+    padding: 1rem;
+}
+
+.app .count-el {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    color: #EEE;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: #393E46;
+    transition: 0.3s;
+}
+.increse {
+    background-color: red;
+}
+
+.save {
+    background-color: #00ADB5;
+}
+
+.footer a{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+a:hover{
+    color: #00ADB5;
+    transition: 0.3s;
+}
